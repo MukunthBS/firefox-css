@@ -337,7 +337,7 @@ scrollbar {
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] {
   overflow: hidden !important;
   position: relative !important;
-  transition: all 200ms !important;
+  transition: all 350ms !important;
   min-width: var(--thin-tab-width) !important;
   max-width: var(--thin-tab-width) !important;
   z-index: 1;
