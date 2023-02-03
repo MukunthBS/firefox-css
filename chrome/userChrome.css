@@ -61,9 +61,6 @@ scrollbar {
 
 /* REMOVE TAB BAR */
 @media all {
-  /* :root[sizemode="maximized"][tabsintitlebar="true"] #navigator-toolbox {
-		margin-top: 8px;
-	} */
   #titlebar {
     -moz-appearance: none !important;
   }
@@ -118,9 +115,7 @@ scrollbar {
   padding: 2px calc(2px + var(--toolbar-start-end-padding)) !important;
   font-size: 10px !important;
 }
-/* #nav-bar-customization-target {
-	flex: 1;
-} */
+
 #nav-bar > * {
   --toolbar-start-end-padding: 2px;
 }
@@ -140,9 +135,6 @@ scrollbar {
   #customization-panelWrapper {
     --panel-arrow-offset: 46px !important;
   }
-  /* #customization-panelWrapper > .panel-arrowbox {
-		display: none;
-	} */
 }
 
 #back-button,
